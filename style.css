@@ -646,6 +646,9 @@
             flex: 0 0 100%;
             max-width: 100%;
         }
+        .services .services-content {
+            margin-left: 20px;
+        }
         .services .services-content .box {
             background-color: #ffffff;
             padding: 30px;
@@ -661,6 +664,9 @@
             flex: 0 0 100%;
             max-width: 100%;
         }
+        .contact-me .container {
+            padding-left: 20px;
+        }
     }
     
     @media(max-width: 500px) {
@@ -675,11 +681,19 @@
         }
         .services .services-content {
             place-content: center;
+            margin-left: 0px;
         }
         .services .services-content .box {
             background-color: #ffffff;
             padding: 30px;
             flex: 0 0 100%;
             max-width: 80%;
+        }
+        .contact-me .container {
+            padding-left: 20px;
+        }
+        .contact-me .info .list {
+            flex: 0 0 100%;
+            max-width: 100%;
         }
     }
